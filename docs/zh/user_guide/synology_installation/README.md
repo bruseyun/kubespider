@@ -64,6 +64,9 @@ cd /volume1/kubespider/kubespider
 export KUBESPIDER_HOME=/volume1
 bash hack/install_kubespider.sh
 ```
+* 如果出现了"docker: Error response from daemon: Bind mount failed: '/volume1/kubespider/.config' does not exists" 的错误，可以尝试手动在 filestation 中对应目录创建对应文件夹，删除所有容器后，重复步骤7
+* ![image](https://github.com/opennaslab/kubespider/assets/114327028/633b62a8-0ab9-4292-982d-176a22b73b2f)
+
 
 ### 8.安装Aria2插件和Kubespider Chrome插件
 * 安装Aria2插件，参考：[link](https://github.com/opennaslab/kubespider/blob/main/README-CN.md#2%E8%BF%9E%E6%8E%A5aria2)
